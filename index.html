@@ -32,13 +32,15 @@
         var numeroUm = "10";
         var numeroDois = 10 ;
         document.write('<br>' + numeroUm + numeroDois);
-        console.log(numeroUm + numeroDois);
+        console.log(numeroUm + numeroDois);        
 
         //numeros - o primeiro é um número e o segunda uma string - ocorre concatenação 
         var numeroTres = 10;
         var numeroQuatro = "10" ;
         document.write('<br>' + numeroTres + numeroQuatro);
         console.log(numeroTres + numeroQuatro);
+
+        document.write('<h3><strong>As variáveis numeroDois e numeroTres serão sobrescritas quando o arquivo scripts.js for executado. </strong></h3>')
 
         //numeros - o primeiro é um número e o segunda uma string - ocorre a conversão da variável Seis
         //para o formato numérico 
@@ -53,7 +55,8 @@
         document.write('<br>' + numeroSete * numeroOito);
         console.log(numeroSete * numeroOito);
 
-
     </script>
+    <!-- Daqui para baixo, vamos ver como ele se comporta trabalhando com um arquivo importado também -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
