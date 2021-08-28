@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Intro</title>
+</head>
+<body>
+    <h3>Introdução ao JavaScript</h3>
+    <script type="text/javascript">
+
+        var apresenta = 'Aqui vem o primeiro script em JavaScript' ;
+
+        alert(apresenta);
+
+        //aqui ele escreve a saida no console do browser e não do VS
+        console.log(apresenta);
+
+        //concatenando strings 
+        var nome = "Diumézio";
+        var sobrenome = "Dasletras";
+        alert(nome + ' ' + sobrenome);
+        console.log(nome + ' ' + sobrenome);
+
+        document.write(nome.toUpperCase() + ' ' + sobrenome.toLowerCase())
+        console.log(nome.toUpperCase() + ' ' + sobrenome.toLowerCase());
+
+        document.write('<br>' + nome.toUpperCase() + ' ' + sobrenome.replace('letras', 'Palavras'));
+
+        //numeros - o primeiro é uma string - ocorre concatenação 
+        var numeroUm = "10";
+        var numeroDois = 10 ;
+        document.write('<br>' + numeroUm + numeroDois);
+        console.log(numeroUm + numeroDois);
+
+        //numeros - o primeiro é um número e o segunda uma string - ocorre concatenação 
+        var numeroTres = 10;
+        var numeroQuatro = "10" ;
+        document.write('<br>' + numeroTres + numeroQuatro);
+        console.log(numeroTres + numeroQuatro);
+
+        //numeros - o primeiro é um número e o segunda uma string - ocorre a conversão da variável Seis
+        //para o formato numérico 
+        var numeroCinco = 10;
+        var numeroSeis = "10" ;
+        document.write('<br>' + numeroCinco * numeroSeis);
+        console.log(numeroCinco * numeroSeis);
+
+        //numeros - os números são multiplicados, mesmo estando no formato de strings. 
+        var numeroSete = "10";
+        var numeroOito = "10" ;
+        document.write('<br>' + numeroSete * numeroOito);
+        console.log(numeroSete * numeroOito);
+
+
+    </script>
+</body>
+</html>
