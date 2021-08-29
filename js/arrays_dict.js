@@ -37,3 +37,22 @@ document.write('<br>' + c)
 document.write('<br>' + meses)
 document.write('<br>' + estacoesDoAno)
 
+//pega o index do elemento?
+document.write('<br>' + meses.indexOf("Outubro"));
+//se o item não é achado, o retorno é -1
+
+//daqui para baixo os dictionarys
+var dicionario = {nome: "Pedro Tião", idade : 35}
+document.write('<br>' + dicionario.nome + ' idade : ' + dicionario.idade)
+
+//vamos criar um array contendo dicionoarios 
+var pessoas = [ {nome: "Julio", idade: 35},
+{nome: "Maria", idade: 27},
+{nome: "Pedro", idade: 48},
+{nome: "Cimara", idade: 89},
+{nome: "Janaina", idade: 12} ]
+
+document.write('<br>Pessoas : ' + pessoas.length )
+document.write('<br>Pessoa : ' + pessoas[2].nome + ' Idade : ' + pessoas[2].idade)
+
+
