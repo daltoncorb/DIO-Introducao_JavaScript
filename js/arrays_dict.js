@@ -28,8 +28,8 @@ meses.push('Jan', 'Feb');
 document.write('<br>' + meses);
 document.write('<br>' + meses[13]);
 //não adianta passar parametros dentro dele 
-meses.pop(9);
-document.write('<br>' + meses)
+meses.pop("Outubro");
+document.write('<br> aqui sem o mes de outubro' + meses)
 
 //concat é usado para unir dois arrays
 var c = meses.concat(estacoesDoAno)
