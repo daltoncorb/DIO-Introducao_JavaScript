@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - Intro</title>
+    <script src="js/scripts.js"></script>
+    <script src="js/arrays_dict.js"></script>
+    <script src="js/lacos_repeticoes.js"></script>
+    <script src="js/datas.js"></script>
+    <script src="js/funcoes.js"></script>    
 </head>
-<body>
+<body onload="load()">
     <h3>Introdução ao JavaScript</h3>
     <script type="text/javascript">
 
@@ -53,13 +58,15 @@
         var numeroSete = "10";
         var numeroOito = "10" ;
         document.write('<br>' + numeroSete * numeroOito);
-        console.log(numeroSete * numeroOito);
+        console.log(numeroSete * numeroOito);   
 
     </script>
     <!-- Daqui para baixo, vamos ver como ele se comporta trabalhando com um arquivo importado também -->
-    <script src="js/scripts.js"></script>
-    <script src="js/arrays_dict.js"></script>
-    <script src="js/lacos_repeticoes.js"></script>
-    <script src="js/datas.js"></script>
+    <button type="button" onclick="clickMe()">Clique me</button>
+    <button type="button" onclick="abrirSite()">Abrir Atozed</button>
+    <button type="button" onclick="redirecionar()">Abrir na mesma página</button>
+    <h2 id="eventos" onmouseover="entrada(this)" onmouseout="saida(this)">Passe o mouse aqui</h2>
+    <h2 id="eventos" onmouseover="entrada(this)" onmouseout="saida(this)">E aqui também</h2>
+
 </body>
 </html>
